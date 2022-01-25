@@ -1,0 +1,108 @@
+* {box-sizing: border-box}
+body{
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container {
+  padding: 16px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+
+}
+
+.singInbtn {
+    display: block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+ margin-left: auto;
+ margin-right: auto;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 300px;
+  opacity: 0.9;
+
+}
+
+.singInbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.register {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+h1{
+  text-align:center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+#send-message{
+	
+padding: 16px;
+  width: 300px;
+display: block;
+  background-color: #4CAF50;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+ margin-left: auto;
+ margin-right: auto;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+#message{
+	width: 500px;
+	display: block;
+  border: none;
+  background: #f1f1f1;
+   margin-left: auto;
+ margin-right: auto;
+
+ 
+}
+#send-message:hover {
+  opacity:1;
+}
+.log1{
+	
+}
+
+#messages-list{
+	min-height: 100px;
+}

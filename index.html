@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chat WebSocket</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="main.css">
+    <script src="sockjs-0.3.4.js"></script>
+    <script src="stomp.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="index.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+    
+  <div id="LogInHide" class="container">
+    <h1 >Log In</h1>
+    
+    <hr>
+
+    <label for="email"><p>username</p></label>
+    <input type="text" placeholder="username" name="email" required>
+
+    <label for="psw"><p>password</p></label>
+    <input type="password" placeholder="password" name="psw" required>
+
+    <hr>
+
+    <button type="submit" id="logInBtn" onclick="login()" class="singInbtn" >Log in</button>
+  </div>
+<hr  width="70%"/> 
+
+
+
+
+<div id="SendMessage" calss="sendMessage">
+	<h1 class="log1">Messages</h1>
+	<form>
+	<label for="message"></label>
+	<input type="text" id="message" placeholder="message">
+	<button id="send-message" type="reset">Send</button>
+	</form>
+
+
+	<ul id="messages-list">
+
+	</ul>
+
+</div>
+
+<!--<div <script>
+$( ".container" ).show();
+$( ".container" ).click(login() {
+ 
+  $( '.sendMessage' ).hide();
+});
+
+</script>
+
+ id="logIn">
+	<input type="username"  >
+	<input type="password"  >
+	<button id="logInBtn" onclick="login()">Log in</button>
+</div>
+
+
+<div calss="sendMessage">
+	<form><button id="send-message" type="reset">Send</button>
+
+	<label for="message"></label><input type="text" id="message">
+	</form>
+
+	<p>Messages</p>
+
+	<ul id="messages-list">
+
+	</ul>
+
+</div>-->
+
+</body>
+</html>
